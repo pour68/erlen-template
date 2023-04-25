@@ -1,0 +1,24 @@
+{
+  "name": "erlen-template",
+  "version": "1.0.0",
+  "description": "This template is static HTML website for Erlen that is store for some chemistry products.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pour68/erlen-template.git"
+  },
+  "keywords": [],
+  "author": "Pouria Nayeb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pour68/erlen-template/issues"
+  },
+  "homepage": "https://github.com/pour68/erlen-template#readme",
+  "dependencies": {
+    "remixicon": "^3.2.0",
+    "swiper": "^9.2.4"
+  }
+}
