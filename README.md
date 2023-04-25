@@ -4,7 +4,7 @@ This template is static HTML website for Erlen that is store for some chemistry 
 
 **STATUS: This project is actively used in production environments.**
 
-## Tools
+## FrontEnd Tools
 
 - HTML
 - CSS
@@ -12,7 +12,7 @@ This template is static HTML website for Erlen that is store for some chemistry 
 - Fonts (Byekan persian font)
 - Vanilla JavaScript
 
-**STATUS: All the images are under copyright law.**
+**STATUS: Must of the images are under copyright law.**
 
 ## Author
 
