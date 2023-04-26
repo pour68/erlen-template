@@ -1,0 +1,48 @@
+.gallery .swiper-wrapper {
+    padding: 1.5rem 0;
+}
+
+.swiper-slide-active .gallery__thumbnail {
+    transform: translateY(-1.25rem) scale(1.2);
+}
+
+.swiper-slide-next .gallery__thumbnail {
+    transform: rotate(15deg);
+}
+
+.swiper-slide-prev .gallery__thumbnail {
+    transform: rotate(-15deg);
+}
+
+.swiper-pagination-fraction {
+    font-size: var(--fs-sm);
+    letter-spacing: -1px;
+    font-weight: 500;
+    color: var(--first-color);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    content: "";
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    font-size: 1.5rem;
+    color: var(--text-dark-color);
+    top: 5.5rem;
+}
+
+.swiper-button-prev {
+    left: -1.5rem;
+    transform: rotate(-15deg);
+}
+
+.swiper-button-next {
+    right: -1.5rem;
+    transform: rotate(15deg);
+}
+
+.swiper-horizontal.swiper-css-mode>.swiper-wrapper {
+    scroll-snap-type: initial;
+}
