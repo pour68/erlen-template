@@ -5,7 +5,7 @@
         }
 
         &__link {
-            font-size: 0.65rem;
+            font-size: 0.35rem;
         }
 
         &__icon {
@@ -25,7 +25,13 @@
 }
 
 // smartphone
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    .nav {
+        &__link {
+            font-size: 0.7rem;
+        }
+    }
+}
 
 // tablet
 @media (max-width: 768px) {
