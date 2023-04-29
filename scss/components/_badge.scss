@@ -1,0 +1,13 @@
+.badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14px;
+    height: 14px;
+    font-size: 0.5rem;
+}
+
+.badge-danger {
+    background-color: tomato;
+    border-radius: 0.5rem;
+}

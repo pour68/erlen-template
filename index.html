@@ -10,10 +10,187 @@
     <!-- icon package -->
     <link rel="stylesheet" href="node_modules/remixicon/fonts/remixicon.css" />
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" /> -->
-    <title> صفحه اصلی </title>
+    <title> فروشگاه محصولات شیمیایی ارلن </title>
 </head>
 
-<body>
+<body class="dark-theme">
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#" class="nav__link" id="theme-button">
+                        <i class="ri-moon-line" style="margin-top: 0.65rem;display: inline-block;"></i>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        صفحه اصلی
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        محصولات
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        درباره ما
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        تماس با ما
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="nav__list nav__icons">
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <i class="ri-user-add-line nav__icon"></i>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <i class="ri-login-circle-line nav__icon"></i>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <div class="p-relative" id="shopping-icon">
+                        <i class="ri-shopping-bag-line nav__icon"></i>
+                        <span class="badge badge-danger nav__badge--position">3</span>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main" id="main">
+        <div class="hero" id="hero">
+            <div class="hero__container container">
+                <section class="hero__content">
+                    <h1>فروشگاه محصولات شیمیایی <span class="text-primary">ارلن</span></h1>
+                    <p>
+                        ارلن تولید کننده برترین و با کیفیت ترین کیتوسان در جهان و مشتقات آن در کل گیتی، ارلن تولید کننده
+                        برترین و با کیفیت ترین کیتوسان در جهان و مشتقات آن در کل گیتی.
+                    </p>
+
+                    <div>
+                        <a href="#" class="button button-default">آشنایی با ما</a>
+                        <a href="#" class="button button-dark">لیست محصولات</a>
+                    </div>
+                </section>
+
+                <div class="hero__search">
+                    <form action="" class="hero__form">
+                        <div class="hero__control">
+                            <input type="text" name="query" class="hero__input" id="search"
+                                placeholder="نام یا کد محصول را وارد نمایید..." />
+
+                            <button class="hero__button">
+                                <i class="ri-search-2-line"></i>
+                            </button>
+                        </div>
+                    </form>
+
+                    <div class="hero__products">
+                        <a href="#" class="button button-sm button-dark button-rounded">کیتوسان</a>
+                        <a href="#" class="button button-sm button-dark button-rounded">پلی وینیل الکل</a>
+                        <a href="#" class="button button-sm button-dark button-rounded">پلی وینیل بوتیرال</a>
+                        <a href="#" class="button button-sm button-dark button-rounded">ایتاکونیک اسید</a>
+                        <a href="#" class="button button-sm button-dark button-rounded">انیدرید مالئیک</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="sidebar" id="shopping-cart">
+        <span class="sidebar__close" id="close">
+            <i class="ri-close-fill"></i>
+        </span>
+
+        <ul class="sidebar__list">
+            <li class="sidebar__item">
+                <div class="sidebar__container">
+                    <figure class="sidebar__figure">
+                        <img src="images/products/chitosan.jpg" alt="chitosan" />
+                    </figure>
+                    <div class="sidebar__content">
+                        <h6>کیتوسان های مولکولار 100 گرم</h6>
+
+                        <div class="sidebar__action">
+                            <div>
+                                <a href="#" class="sidebar__btn">+</a>
+                                1
+                                <a href="#" class="sidebar__btn">-</a>
+                            </div>
+
+                            <div class="sidebar__price">
+                                12,000,000 تومان
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="sidebar__item">
+                <div class="sidebar__container">
+                    <figure class="sidebar__figure">
+                        <img src="images/products/chitosan.jpg" alt="chitosan" />
+                    </figure>
+                    <div class="sidebar__content">
+                        <h6>کیتوسان های مولکولار 25 گرم</h6>
+
+                        <div class="sidebar__action">
+                            <div>
+                                <a href="#" class="sidebar__btn">+</a>
+                                2
+                                <a href="#" class="sidebar__btn">-</a>
+                            </div>
+
+                            <div class="sidebar__price">
+                                800,000 تومان
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="sidebar__item">
+                <div class="sidebar__container">
+                    <figure class="sidebar__figure">
+                        <img src="images/products/chitosan.jpg" alt="chitosan" />
+                    </figure>
+                    <div class="sidebar__content">
+                        <h6>کیتوسان های مولکولار 500 گرم</h6>
+
+                        <div class="sidebar__action">
+                            <div>
+                                <a href="#" class="sidebar__btn">+</a>
+                                3
+                                <a href="#" class="sidebar__btn">-</a>
+                            </div>
+
+                            <div class="sidebar__price">
+                                180,000,000 تومان
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <div class="sidebar__final">
+            <span>
+                مجموع: <span class="sidebar__price">36,500,000 تومان</span>
+            </span>
+
+            <a href="#">پرداخت</a>
+        </div>
+    </div>
 
     <!-- main js -->
     <script src="js/main.js"></script>
